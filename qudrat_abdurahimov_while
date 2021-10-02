@@ -1,0 +1,262 @@
+#4-masala
+# n = int(input())
+# a = 3
+# son = bool
+# while n>0 :
+#     a*=3
+#     if n%a==0 :
+#         print('3 ni darajasi')
+#     else :
+#         print('3 ni darajasi emas')
+#         break
+
+#5-masala
+
+# n = int(input())
+# a = 0
+# while n!=0 :
+#     n//=2
+#     a+=1
+# print(a-1)
+
+#6-masala
+
+# n = int(input())
+# kopaytma = 1
+# while n!=0 :
+#     kopaytma*=n
+#     n-=2
+# print(f"n faktorial : {kopaytma}")
+
+#7-masala
+
+# n = int(input())
+# k= 1
+# while n>k :
+#     k+=1
+#     if n-k*k<0 :
+#         print(k)
+#         break
+
+#8-masala
+
+# n = int(input())
+# k=n//2
+# while n>k :
+#     k-=1
+#     if n>=k*k :
+#         print(k)
+#         break
+
+#9-masala
+
+# n = int(input())
+# kopaytir = 1
+# i = 1
+# while 3*kopaytir<=n :
+#     i+=1
+#     kopaytir*=3
+# print(i)
+
+#10 - masala
+
+# n = int(input())
+# kopaytir = 3
+# i = 1
+# while 3*kopaytir<=n :
+#     i+=1
+#     kopaytir*=3
+# print(i)
+
+#11-masala
+
+# n = int(input())
+# yigindi = 0
+# i=0
+# while n>=yigindi :
+#     i+=1
+#     yigindi+=i
+# print(i,'\n',yigindi)
+
+#12-masala
+
+# n = int(input())
+# yigindi,i = 0,0
+# while yigindi+i<n :
+#     i+=1
+#     yigindi+=i
+# print(i,'\n',yigindi)
+
+#15-masala
+
+# s =float(input())
+# p = float(input())
+# i=0
+# yigindi =s
+# while s!=0 :
+#     yigindi+=s*p/100
+#     i+=1
+#     print(yigindi)
+#     if yigindi ==2*s :
+#         break
+# print(i)
+
+#16-masala
+
+# s = 10
+# p = float(input())
+# i=0
+# while s <200 :
+#     s=s+s*p
+#     i+=1
+#     print(s)
+# print(i)
+
+#17-masala
+
+""" n ni m ga bolgandagi qoldi va bolinma"""
+
+# n,m= int(input()),int(input())
+# i=0
+# while n>m :
+#     n-=m
+#     i+=1
+# print(f'n ni m ga bolsa qoldiq : {n}')
+# print(f'n ni m ga bolsa bolinma : {i}')
+
+#18-masala
+
+"""n sonini teskarisini chiqarish"""
+
+# n = int(input())
+# s= 0
+# while n!=0 :
+#     b=n%10
+#     s = s*10+b
+#     n//=10
+# print(f'sonni teskarisi : {s}')
+
+#19-masala
+
+""" n sonini raqamlari yigindisi"""
+
+# n = int(input())
+# s = 0
+# i=0
+# while n!=0 :
+#     s+=n%10
+#     n//=10
+#     i+=1
+# print(f'raqamlari yigindisi : {s}')
+# print(f'{i} xonali son')
+
+#20--masala
+
+""" berilgan sonni raqamlari orasida 2 raqami borligini tekshirish"""
+
+# n = int(input())
+# while n!=0 :
+#     if n%10==2 :
+#         print('2 raqami bor ')
+#         break
+#     n//=10
+
+#21-masala
+
+""" berilgan sonni raqamlari orasida toq raqam borligini tekshirish"""
+
+# n = int(input())
+# b = int
+# while n !=0 :
+#     b=n%10
+#     n//=10
+#     if b%2==1 :
+#         print('toq raqamlar bor')
+#         break
+
+#22-masala
+
+""" sonni tubligini tekshirish"""
+
+# n = int(input())
+# son = bool
+# i=2
+# while i<n :
+#     if n%i==0 :
+#         print('tub son emas')
+#         break
+#     i+=1
+#     if n%i!=0 :
+#         son = 1
+# if son :
+#     print('tub son')
+
+#23-masala
+
+""" a va b sonlarini ekub ini topish"""
+
+# a = int(input())
+# b = int(input())
+# if a>b :
+#     i = b
+#     while i!=0 :
+#         if a%i==0 and b%i==0 :
+#             print(f'ekub : {i}')
+#             break
+#         i-=1
+# if b < a :
+#     i=a
+#     while i!=0 :
+#         if a%i==0 and b%i==0 :
+#             print(f'ekub : {i}')
+#         i-=1
+
+#24-masala
+
+"""n sonigacha bolgan sonlar orasida fibonachi son borligi"""
+
+# n = int(input())
+# a1,a2 =1,1
+# i=3
+# while n>i :
+#     c=a1+a2
+#     a1=a2
+#     a2=c
+#     i+=1
+#     if c==n :
+#         print('fibonachi son bor')
+#         break
+
+#25-masala
+
+""" n sonidan katta fibonachi son"""
+
+# n = int(input())
+# a1,a2 =1,1
+# i=3
+# while n>i :
+#     c=a1+a2
+#     a1=a2
+#     a2=c
+#     i+=1
+#     print(c)
+#     if c>n :
+#         print(f"n dan katta fibonachi son : {c}")
+#         break
+
+#26-masala
+
+"""n sonidan bitta oldingi va bitta keyingi son"""
+
+# n = int(input())
+# a1,a2 = 1,1
+# i=1
+# while i<n :
+#     c = a1+a2
+#     a1=a2
+#     a2=c
+#     i+=1
+#     if n>c and n*2//3<c :
+#         print(c)
+#     if c>n and n*3//2>c :
+#         print(c)
